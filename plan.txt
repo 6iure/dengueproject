@@ -1,0 +1,11 @@
+analise dos casos de dengue em 2024 - um ambito social da situacao
+
+1- analisar quais variaveis vou utilizar --
+2- TRATAMENTO CBLS dos dados
+3- analise descritiva
+4- inferencia
+5- dashboards usando o streamlit
+
+ideias analise descritiva: trazer um grafico de barras horizontais de sintomas por estado
+correlacionar sintomas com idade
+ideias analise inferencial:
