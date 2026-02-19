@@ -2,3 +2,4 @@
 data/
 /data/
 config/database.ini
+/venv
