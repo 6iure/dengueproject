@@ -144,11 +144,11 @@ n_to_education = {
     1 : 'Fundamental Incompleto',
     2 : 'Fundamental Incompleto',
     3 : 'Fundamental Incompleto',
-    4 : 'Ensino fundamental completo',
-    5 : 'Ensino medio incompleto',
-    6 : 'Ensino Medio Completo',
-    7 : 'Educação superior incompleta',
-    8 : 'Educação superior completa ',
+    4 : 'Fundamental Completo',
+    5 : 'Ens. Médio Incompleto',
+    6 : 'Ens. Médio Completo',
+    7 : 'Ens. Superior Incompleto',
+    8 : 'Ens. Superior Completo ',
     9 : 'Ignorado/Branco',
     10 : 'Nao se aplica',
 }
@@ -316,3 +316,5 @@ no_outliers.loc[mascara_ativo, 'ocupacao_sintetica'] = no_outliers.loc[mascara_a
 no_outliers['ocupacao_sintetica'].value_counts()
 # %% limpeza de aproximadamente 360 mil linhas
 no_outliers.shape
+# %%
+no_outliers.to_parquet('data/dbr24cleansed.parquet', index=False)
